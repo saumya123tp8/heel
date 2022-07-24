@@ -48,7 +48,7 @@ function App() {
           <Routes>
             {/* <Routes> */}
             <Route path="/about" element={<About mode={mode}/>} />
-            <Route path="/" element={<TextForm showAlert={showAlert} mode={mode} heading="try textytils to remove extra spaces ,covert lower case to uppercase
+            <Route path="/" element={<TextForm showAlert={showAlert} mode={mode} heading="try textutils to remove extra spaces ,covert lower case to uppercase
             count word and letter "/>} />
             {/* </Routes> */}
           </Routes>
