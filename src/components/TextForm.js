@@ -89,26 +89,26 @@ export default function TextForm(props) {
 
         </div>
 
-        <button disabled={text.length===0} className="btn btn-primary mx-3" onClick={handleupclick}>
+        <button disabled={text.length===0} className="btn btn-primary mxy-3" onClick={handleupclick}>
           Convert into Uppercase
         </button>
 
-        <button disabled={text.length===0} className="btn btn-primary" onClick={handlelowclick}>
+        <button disabled={text.length===0} className="btn btn-primary mxy-3" onClick={handlelowclick}>
           Convert into Lowercase
         </button>
 
-        <button disabled={text.length===0} className="btn btn-primary mx-3" onClick={cleartextarea}>
+        <button disabled={text.length===0} className="btn btn-primary mxy-3" onClick={cleartextarea}>
           Clear Text Area
         </button>
 
-        <button disabled={text.length===0} className="btn btn-primary mx-1" onClick={handlecopy}>
+        <button disabled={text.length===0} className="btn btn-primary mxy-3" onClick={handlecopy}>
           Copy
         </button>
 
-        <button disabled={text.length===0} className="btn btn-primary mx-1" onClick={handleextraspaces}>
+        <button disabled={text.length===0} className="btn btn-primary mxy-3" onClick={handleextraspaces}>
           Remove extra space
         </button>
-        <button  className="btn btn-primary mx-1" onClick={speak}>
+        <button  className="btn btn-primary mxy-3" onClick={speak}>
           Speak
         </button>
 
